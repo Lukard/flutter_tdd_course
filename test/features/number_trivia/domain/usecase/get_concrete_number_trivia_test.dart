@@ -26,7 +26,7 @@ void main() {
       when(repository.getConcreteNumberTrivia(any))
         .thenAnswer((_) async => Right(testNumberTrivia));
 
-      final result = await useCase.execute(number: testNumber);
+      final result = await useCase(Params(number: testNumber));
 
       expect(result, Right(testNumberTrivia));
       verify(repository.getConcreteNumberTrivia(testNumber));
