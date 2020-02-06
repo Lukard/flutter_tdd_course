@@ -2,8 +2,11 @@ import 'dart:io';
 
 String fixture(String name) {
   Directory current = Directory.current;
-  String path =
-      current.path.endsWith('/test') ? current.path : current.path + '/test';
+  String separator = Platform.pathSeparator;
 
-  return File('$path/fixture/$name').readAsStringSync();
+  String path = current.path.endsWith('${separator}test')
+      ? current.path
+      : current.path + '/test';
+
+  return File('$path${separator}fixture$separator$name').readAsStringSync();
 }
