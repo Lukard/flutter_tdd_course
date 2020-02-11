@@ -1,3 +1,5 @@
+![Flutter CI](https://github.com/Lukard/flutter_tdd_course/workflows/Flutter%20CI/badge.svg?branch=master)
+
 # futtler_tdd_course
 
 A new Flutter project.
