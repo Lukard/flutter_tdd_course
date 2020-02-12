@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:futtler_tdd_course/core/error/exception.dart';
 import 'package:futtler_tdd_course/core/error/failure.dart';
-import 'package:futtler_tdd_course/core/platform/network_info.dart';
+import 'package:futtler_tdd_course/core/network/network_info.dart';
 import 'package:futtler_tdd_course/features/number_trivia/data/datasource/number_trivia_local_data_source.dart';
 import 'package:futtler_tdd_course/features/number_trivia/data/datasource/number_trivia_remote_data_source.dart';
 import 'package:futtler_tdd_course/features/number_trivia/domain/entity/number_trivia.dart';
