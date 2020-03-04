@@ -17,6 +17,7 @@ class TriviaDisplay extends StatelessWidget {
         children: <Widget>[
           Text(
             numberTrivia.number.toString(),
+            key: Key('Number Display'),
             style: TextStyle(
               fontSize: 50,
               fontWeight: FontWeight.bold,
@@ -27,6 +28,7 @@ class TriviaDisplay extends StatelessWidget {
               child: SingleChildScrollView(
                 child: Text(
                   numberTrivia.text,
+                  key: Key('Description Display'),
                   style: TextStyle(fontSize: 25),
                   textAlign: TextAlign.center,
                 ),
