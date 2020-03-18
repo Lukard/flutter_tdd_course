@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:futtler_tdd_course/features/number_trivia/presentation/page/number_trivia_page.dart';
-import 'file:///C:/Development/futtler_tdd_course/test_driver/helper/widget/restart_for_testing.dart';
+import 'package:futtler_tdd_course/test/restart_for_testing.dart';
 
 import 'injection_container.dart' as di;
 
